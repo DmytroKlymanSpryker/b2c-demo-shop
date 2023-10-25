@@ -100,7 +100,7 @@
   "SprykerShop.SalesProductConfigurationWidgetExtension": "1.0.0",
   "SprykerShop.SalesReturnPage": "1.7.0",
   "SprykerShop.SalesReturnPageExtension": "1.0.0",
-  "SprykerShop.SecurityBlockerPage": "1.0.1",
+  "SprykerShop.SecurityBlockerPage": "1.1.0",
   "SprykerShop.SessionAgentValidation": "1.1.0",
   "SprykerShop.SessionAgentValidationExtension": "1.0.0",
   "SprykerShop.SessionCustomerValidationPage": "1.0.0",
