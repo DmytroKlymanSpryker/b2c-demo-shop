@@ -136,7 +136,7 @@
   "Spryker.Application": "3.34.0",
   "Spryker.ApplicationExtension": "1.1.0",
   "Spryker.Assertion": "3.0.1",
-  "Spryker.Asset": "1.5.2",
+  "Spryker.Asset": "1.5.3",
   "Spryker.AssetStorage": "1.2.1",
   "Spryker.AuthRestApi": "2.14.2",
   "Spryker.AuthRestApiExtension": "1.1.0",
@@ -713,7 +713,7 @@
   "Spryker.StoreGui": "1.2.0",
   "Spryker.StoreGuiExtension": "1.0.0",
   "Spryker.StoreStorage": "1.0.0",
-  "Spryker.StoresRestApi": "1.1.0",
+  "Spryker.StoresRestApi": "1.2.0",
   "Spryker.Symfony": "3.12.0",
   "Spryker.SymfonyMailer": "1.1.0",
   "Spryker.Synchronization": "1.16.0",
@@ -783,6 +783,6 @@
   "Spryker.Development": "3.34.5",
   "Spryker.ModuleFinder": "1.2.0",
   "Spryker.Profiler": "0.1.1",
-  "Spryker.Testify": "3.49.0",
+  "Spryker.Testify": "3.49.1",
   "Spryker.WebProfiler": "1.6.4"
 }

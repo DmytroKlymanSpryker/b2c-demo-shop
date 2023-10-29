@@ -43462,16 +43462,16 @@
         },
         {
             "name": "spryker/stores-rest-api",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/stores-rest-api.git",
-                "reference": "0f410b1d07cce2c444b85a3c4e2217b963c65a86"
+                "reference": "ed25e8437457d3745f63cbb713200b42b1bd6968"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/stores-rest-api/zipball/0f410b1d07cce2c444b85a3c4e2217b963c65a86",
-                "reference": "0f410b1d07cce2c444b85a3c4e2217b963c65a86",
+                "url": "https://api.github.com/repos/spryker/stores-rest-api/zipball/ed25e8437457d3745f63cbb713200b42b1bd6968",
+                "reference": "ed25e8437457d3745f63cbb713200b42b1bd6968",
                 "shasum": ""
             },
             "require": {
@@ -43482,12 +43482,13 @@
                 "spryker/glue-application": "^1.0.0",
                 "spryker/glue-application-extension": "^1.0.0",
                 "spryker/kernel": "^3.30.0",
-                "spryker/store": "^1.8.0",
+                "spryker/store": "^1.21.0",
                 "spryker/symfony": "^3.0.0"
             },
             "require-dev": {
                 "spryker/code-sniffer": "*",
-                "spryker/container": "*"
+                "spryker/container": "*",
+                "spryker/testify": "*"
             },
             "suggest": {
                 "spryker/container": "Add this module when you want to use the Container."
@@ -43509,9 +43510,9 @@
             ],
             "description": "StoresRestApi module",
             "support": {
-                "source": "https://github.com/spryker/stores-rest-api/tree/1.1.0"
+                "source": "https://github.com/spryker/stores-rest-api/tree/1.2.0"
             },
-            "time": "2023-03-31T19:36:11+00:00"
+            "time": "2023-07-24T13:36:15+00:00"
         },
         {
             "name": "spryker/symfony",
