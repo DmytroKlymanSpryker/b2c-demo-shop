@@ -59,6 +59,12 @@ class GlueBackendApiApplicationAuthorizationConnectorConfig extends SprykerGlueB
                     'post',
                 ],
             ],
+            '/warehouse-tokens' => [
+                'isRegularExpression' => false,
+                'methods' => [
+                    'post',
+                ],
+            ],
         ];
     }
 }
