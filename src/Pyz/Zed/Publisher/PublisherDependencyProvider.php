@@ -100,6 +100,9 @@ use Spryker\Zed\Publisher\PublisherDependencyProvider as SprykerPublisherDepende
 use Spryker\Zed\SalesReturnSearch\Communication\Plugin\Publisher\ReturnReason\ReturnReasonDeletePublisherPlugin;
 use Spryker\Zed\SalesReturnSearch\Communication\Plugin\Publisher\ReturnReason\ReturnReasonWritePublisherPlugin;
 use Spryker\Zed\SalesReturnSearch\Communication\Plugin\Publisher\ReturnReasonPublisherTriggerPlugin;
+use Spryker\Zed\ShipmentTypeStorage\Communication\Plugin\Publisher\ShipmentType\ShipmentTypeWriterPublisherPlugin;
+use Spryker\Zed\ShipmentTypeStorage\Communication\Plugin\Publisher\ShipmentTypePublisherTriggerPlugin;
+use Spryker\Zed\ShipmentTypeStorage\Communication\Plugin\Publisher\ShipmentTypeStore\ShipmentTypeStoreWriterPublisherPlugin;
 use Spryker\Zed\StoreStorage\Communication\Plugin\Publisher\CountryStore\CountryStoreWritePublisherPlugin;
 use Spryker\Zed\StoreStorage\Communication\Plugin\Publisher\CurrencyStore\CurrencyStoreWritePublisherPlugin;
 use Spryker\Zed\StoreStorage\Communication\Plugin\Publisher\LocaleStore\LocaleStoreWritePublisherPlugin;
@@ -132,6 +135,7 @@ class PublisherDependencyProvider extends SprykerPublisherDependencyProvider
             $this->getAssetStoragePlugins(),
             $this->getCustomerStoragePlugins(),
             $this->getProductExportPlugins(),
+            $this->getShipmentTypeStoragePlugins(),
         );
     }
 
@@ -179,6 +183,7 @@ class PublisherDependencyProvider extends SprykerPublisherDependencyProvider
             new FileManagerPublisherTriggerPlugin(),
             new AssetPublisherTriggerPlugin(),
             new CustomerAccessPublisherTriggerPlugin(),
+            new ShipmentTypePublisherTriggerPlugin(),
         ];
     }
 
@@ -386,6 +391,17 @@ class PublisherDependencyProvider extends SprykerPublisherDependencyProvider
             new CurrencyStoreWritePublisherPlugin(),
             new CountryStoreWritePublisherPlugin(),
             new LocaleStoreWritePublisherPlugin(),
+        ];
+    }
+
+    /**
+     * @return array
+     */
+    public function getShipmentTypeStoragePlugins(): array
+    {
+        return [
+            new ShipmentTypeWriterPublisherPlugin(),
+            new ShipmentTypeStoreWriterPublisherPlugin(),
         ];
     }
 }

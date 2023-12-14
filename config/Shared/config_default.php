@@ -797,3 +797,11 @@ $config[GlueJsonApiConventionConstants::GLUE_DOMAIN] = sprintf(
     $sprykerGlueStorefrontHost ?: $sprykerGlueBackendHost ?: 'localhost',
 );
 $config[GlueStorefrontApiApplicationConstants::GLUE_STOREFRONT_CORS_ALLOW_ORIGIN] = getenv('SPRYKER_GLUE_APPLICATION_CORS_ALLOW_ORIGIN') ?: '*';
+
+$config[\Spryker\Shared\Payment\PaymentConstants::TENANT_IDENTIFIER] = getenv('SPRYKER_TENANT_IDENTIFIER') ?: '';
+
+$config[\Spryker\Shared\Product\ProductConstants::TENANT_IDENTIFIER] = getenv('SPRYKER_TENANT_IDENTIFIER') ?: '';
+
+$config[\Spryker\Shared\PropelReplicationCache\PropelReplicationCacheConstants::IS_REPLICATION_ENABLED] = (bool)$config[\Spryker\Shared\Propel\PropelConstants::ZED_DB_REPLICAS];
+
+$config[\Spryker\Shared\SecurityBlocker\SecurityBlockerConstants::SECURITY_BLOCKER_AGENT_BLOCKING_TTL] = 900;

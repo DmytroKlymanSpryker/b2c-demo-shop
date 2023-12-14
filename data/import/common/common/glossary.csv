@@ -2950,3 +2950,10 @@ product_configuration.error.availability.failed,The product has an availability 
 product_configuration.error.availability.failed,Das Produkt hat eine Verfügbarkeit von %availability%.,de_DE
 product_configuration.quote_request.validation.error.incomplete,You must finish the configuration of the products to validate the quote.,en_US
 product_configuration.quote_request.validation.error.incomplete,"Sie müssen die Konfiguration der Produkte abschließen, um das Angebot zu validieren.",de_DE
+product_configurator_gateway_page.shopping_list_item_uuid_required,Shopping List item ID is required parameter.,en_US
+product_configurator_gateway_page.shopping_list_item_uuid_required,Die Artikel-ID der Einkaufsliste ist ein erforderlicher Parameter.,de_DE
+category.validation.category_node_entity_not_found,The category node ID '%category_node_id%' cannot be relocated because this category node no longer exists.,en_US
+category.validation.category_node_entity_not_found,"Die Kategorieknoten-ID '%category_node_id%' kann nicht verschoben werden, da dieser Kategorieknoten nicht mehr existiert.",de_DE
+security_blocker_backoffice_gui.error.account_blocked,"Warten Sie bitte %minutes% Minuten, bevor Sie es erneut versuchen.",de_DE
+store.validation.store_not_found,Store not found,en_US
+store.validation.store_not_found,Store nicht gefunden,de_DE

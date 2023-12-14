@@ -7,11 +7,15 @@
 
 namespace Pyz\Zed\PriceCartConnector;
 
-use Generated\Shared\Transfer\ItemTransfer;
 use Spryker\Zed\PriceCartConnector\PriceCartConnectorConfig as SprykerPriceCartConnectorConfig;
 
 class PriceCartConnectorConfig extends SprykerPriceCartConnectorConfig
 {
+    /**
+     * @var bool
+     */
+    public const IS_ZERO_PRICE_ENABLED = false;
+
     /**
      * @var bool
      */
@@ -25,6 +29,8 @@ class PriceCartConnectorConfig extends SprykerPriceCartConnectorConfig
         return array_merge(parent::getItemFieldsForIdentifier(), [
             ItemTransfer::SKU,
             ItemTransfer::QUANTITY,
+            ItemTransfer::MERCHANT_REFERENCE,
+            ItemTransfer::PRODUCT_OFFER_REFERENCE,
         ]);
     }
 }
