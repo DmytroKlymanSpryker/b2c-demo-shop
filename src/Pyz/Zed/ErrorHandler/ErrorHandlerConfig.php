@@ -8,7 +8,6 @@
 namespace Pyz\Zed\ErrorHandler;
 
 use Spryker\Zed\ErrorHandler\ErrorHandlerConfig as SprykerErrorHandlerConfigAlias;
-use Symfony\Component\HttpFoundation\Response;
 
 /**
  * @method \Spryker\Shared\ErrorHandler\ErrorHandlerConfig getSharedConfig()
