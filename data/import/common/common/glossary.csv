@@ -2957,3 +2957,5 @@ category.validation.category_node_entity_not_found,"Die Kategorieknoten-ID '%cat
 security_blocker_backoffice_gui.error.account_blocked,"Warten Sie bitte %minutes% Minuten, bevor Sie es erneut versuchen.",de_DE
 store.validation.store_not_found,Store not found,en_US
 store.validation.store_not_found,Store nicht gefunden,de_DE
+category.validation.category_node_entity_not_found,"Die Kategorieknoten-ID '%category_node_id%' kann nicht verschoben werden, da dieser Kategorieknoten nicht mehr existiert.",de_DE
+security_blocker_backoffice_gui.error.account_blocked,"Warten Sie bitte %minutes% Minuten, bevor Sie es erneut versuchen.",de_DE

@@ -117,6 +117,30 @@ class DocumentationGeneratorApiDependencyProvider extends SprykerDocumentationGe
         $contextExpanderCollection->addExpander(new SprykerAuthorizationContextExpanderPlugin(), [
             static::GLUE_STOREFRONT_API_APPLICATION_NAME,
         ]);
+        $contextExpanderCollection->addExpander(new BackendResourcesContextExpanderPlugin(), [
+            static::GLUE_BACKEND_API_APPLICATION_NAME,
+        ]);
+        $contextExpanderCollection->addExpander(new BackendCustomRoutesContextExpanderPlugin(), [
+            static::GLUE_BACKEND_API_APPLICATION_NAME,
+        ]);
+        $contextExpanderCollection->addExpander(new BackendHostContextExpanderPlugin(), [
+            static::GLUE_BACKEND_API_APPLICATION_NAME,
+        ]);
+        $contextExpanderCollection->addExpander(new AuthorizationContextExpanderPlugin(), [
+            static::GLUE_BACKEND_API_APPLICATION_NAME,
+        ]);
+        $contextExpanderCollection->addExpander(new StorefrontResourcesContextExpanderPlugin(), [
+            static::GLUE_STOREFRONT_API_APPLICATION_NAME,
+        ]);
+        $contextExpanderCollection->addExpander(new StorefrontCustomRoutesContextExpanderPlugin(), [
+            static::GLUE_STOREFRONT_API_APPLICATION_NAME,
+        ]);
+        $contextExpanderCollection->addExpander(new StorefrontHostContextExpanderPlugin(), [
+            static::GLUE_STOREFRONT_API_APPLICATION_NAME,
+        ]);
+        $contextExpanderCollection->addExpander(new SprykerAuthorizationContextExpanderPlugin(), [
+            static::GLUE_STOREFRONT_API_APPLICATION_NAME,
+        ]);
 
         return $contextExpanderCollection;
     }
