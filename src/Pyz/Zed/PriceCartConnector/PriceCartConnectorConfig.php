@@ -7,7 +7,6 @@
 
 namespace Pyz\Zed\PriceCartConnector;
 
-use Generated\Shared\Transfer\ItemTransfer;
 use Spryker\Zed\PriceCartConnector\PriceCartConnectorConfig as SprykerPriceCartConnectorConfig;
 
 class PriceCartConnectorConfig extends SprykerPriceCartConnectorConfig

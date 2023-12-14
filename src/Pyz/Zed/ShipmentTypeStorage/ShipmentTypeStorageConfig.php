@@ -7,6 +7,7 @@
 
 namespace Pyz\Zed\ShipmentTypeStorage;
 
+use Pyz\Zed\Synchronization\SynchronizationConfig;
 use Spryker\Zed\ShipmentTypeStorage\ShipmentTypeStorageConfig as SprykerShipmentTypeStorageConfig;
 
 class ShipmentTypeStorageConfig extends SprykerShipmentTypeStorageConfig
