@@ -30357,22 +30357,22 @@
         },
         {
             "name": "spryker/price-product-schedule-gui",
-            "version": "2.4.0",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/price-product-schedule-gui.git",
-                "reference": "99ad65098c12dc09e9fe30f764efefa18f0fbdfd"
+                "reference": "00cff10c0f87ec094dda44304315776b0b5e409e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/price-product-schedule-gui/zipball/99ad65098c12dc09e9fe30f764efefa18f0fbdfd",
-                "reference": "99ad65098c12dc09e9fe30f764efefa18f0fbdfd",
+                "url": "https://api.github.com/repos/spryker/price-product-schedule-gui/zipball/00cff10c0f87ec094dda44304315776b0b5e409e",
+                "reference": "00cff10c0f87ec094dda44304315776b0b5e409e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.0",
                 "spryker/currency": "^3.11.0 || ^4.0.0",
-                "spryker/gui": "^3.45.0",
+                "spryker/gui": "^3.50.0",
                 "spryker/kernel": "^3.33.0",
                 "spryker/locale": "^3.0.0 || ^4.0.0",
                 "spryker/money": "^2.7.0",
@@ -30412,9 +30412,9 @@
             ],
             "description": "PriceProductScheduleGui module",
             "support": {
-                "source": "https://github.com/spryker/price-product-schedule-gui/tree/2.4.0"
+                "source": "https://github.com/spryker/price-product-schedule-gui/tree/2.5.0"
             },
-            "time": "2023-03-31T19:36:11+00:00"
+            "time": "2023-08-01T16:18:08+00:00"
         },
         {
             "name": "spryker/price-product-storage",
