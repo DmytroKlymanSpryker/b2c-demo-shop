@@ -7504,16 +7504,16 @@
         },
         {
             "name": "spryker-shop/catalog-page",
-            "version": "1.25.0",
+            "version": "1.25.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker-shop/catalog-page.git",
-                "reference": "7ede7da5e5c477f163ff9ac20f5d2921eef7be49"
+                "reference": "23281b53d8e10821f8fcc50a4acd0431193efdb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker-shop/catalog-page/zipball/7ede7da5e5c477f163ff9ac20f5d2921eef7be49",
-                "reference": "7ede7da5e5c477f163ff9ac20f5d2921eef7be49",
+                "url": "https://api.github.com/repos/spryker-shop/catalog-page/zipball/23281b53d8e10821f8fcc50a4acd0431193efdb7",
+                "reference": "23281b53d8e10821f8fcc50a4acd0431193efdb7",
                 "shasum": ""
             },
             "require": {
@@ -7569,9 +7569,9 @@
             ],
             "description": "CatalogPage module",
             "support": {
-                "source": "https://github.com/spryker-shop/catalog-page/tree/1.25.0"
+                "source": "https://github.com/spryker-shop/catalog-page/tree/1.25.1"
             },
-            "time": "2023-03-31T19:36:14+00:00"
+            "time": "2023-07-27T15:38:07+00:00"
         },
         {
             "name": "spryker-shop/category-image-storage-widget",
@@ -8238,20 +8238,20 @@
         },
         {
             "name": "spryker-shop/cms-slot-block-widget",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker-shop/cms-slot-block-widget.git",
-                "reference": "c116d9d7a5459b613d0c061fee3b4756f5452def"
+                "reference": "19731a462ea102c51659bfd892c8a20c1579ee66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker-shop/cms-slot-block-widget/zipball/c116d9d7a5459b613d0c061fee3b4756f5452def",
-                "reference": "c116d9d7a5459b613d0c061fee3b4756f5452def",
+                "url": "https://api.github.com/repos/spryker-shop/cms-slot-block-widget/zipball/19731a462ea102c51659bfd892c8a20c1579ee66",
+                "reference": "19731a462ea102c51659bfd892c8a20c1579ee66",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2",
+                "php": ">=8.0",
                 "spryker-shop/shop-cms-slot": "^1.0.0",
                 "spryker-shop/shop-cms-slot-extension": "^1.0.0",
                 "spryker/cms-slot-block": "^1.0.0",
@@ -8284,9 +8284,9 @@
             ],
             "description": "CmsSlotBlockWidget module",
             "support": {
-                "source": "https://github.com/spryker-shop/cms-slot-block-widget/tree/1.1.0"
+                "source": "https://github.com/spryker-shop/cms-slot-block-widget/tree/1.1.1"
             },
-            "time": "2020-07-24T04:43:12+00:00"
+            "time": "2023-07-27T15:38:07+00:00"
         },
         {
             "name": "spryker-shop/comment-widget-extension",
