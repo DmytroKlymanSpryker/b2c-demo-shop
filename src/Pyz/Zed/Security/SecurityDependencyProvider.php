@@ -13,7 +13,7 @@ use Spryker\Zed\SecurityOauthUser\Communication\Plugin\Security\OauthUserSecurit
 use Spryker\Zed\SecuritySystemUser\Communication\Plugin\Security\SystemUserSecurityPlugin;
 use Spryker\Zed\SessionUserValidation\Communication\Plugin\Security\SaveSessionUserSecurityPlugin;
 use Spryker\Zed\SessionUserValidation\Communication\Plugin\Security\ValidateSessionUserSecurityPlugin;
-use Spryker\Zed\User\Communication\Plugin\Security\UserSessionHandlerSecurityPlugin;
+use Spryker\Zed\User\Communication\Plugin\Security\ZedUserSessionHandlerSecurityPlugin;
 
 class SecurityDependencyProvider extends SprykerSecurityDependencyProvider
 {
@@ -23,12 +23,12 @@ class SecurityDependencyProvider extends SprykerSecurityDependencyProvider
     protected function getSecurityPlugins(): array
     {
         return [
-            new UserSessionHandlerSecurityPlugin(),
             new SystemUserSecurityPlugin(),
             new UserSecurityPlugin(),
             new OauthUserSecurityPlugin(),
             new ValidateSessionUserSecurityPlugin(),
             new SaveSessionUserSecurityPlugin(),
+            new ZedUserSessionHandlerSecurityPlugin(),
         ];
     }
 }
