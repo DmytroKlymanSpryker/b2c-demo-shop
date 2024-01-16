@@ -13803,16 +13803,16 @@
         },
         {
             "name": "spryker/asset",
-            "version": "1.5.2",
+            "version": "1.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/asset.git",
-                "reference": "31d0fb0dbe72acb9a404984da422c96ba4f93670"
+                "reference": "40cb5255d465ac91f47bd2fead4d32532b4488a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/asset/zipball/31d0fb0dbe72acb9a404984da422c96ba4f93670",
-                "reference": "31d0fb0dbe72acb9a404984da422c96ba4f93670",
+                "url": "https://api.github.com/repos/spryker/asset/zipball/40cb5255d465ac91f47bd2fead4d32532b4488a0",
+                "reference": "40cb5255d465ac91f47bd2fead4d32532b4488a0",
                 "shasum": ""
             },
             "require": {
@@ -13827,7 +13827,9 @@
             },
             "require-dev": {
                 "spryker/code-sniffer": "*",
+                "spryker/message-broker": "*",
                 "spryker/propel": "*",
+                "spryker/ramsey-uuid": "*",
                 "spryker/testify": "*"
             },
             "type": "library",
@@ -13839,7 +13841,8 @@
             "autoload": {
                 "psr-4": {
                     "Spryker\\": "src/Spryker/",
-                    "SprykerTest\\Shared\\Asset\\Helper\\": "tests/SprykerTest/Shared/Asset/_support/Helper/"
+                    "SprykerTest\\Shared\\Asset\\Helper\\": "tests/SprykerTest/Shared/Asset/_support/Helper/",
+                    "SprykerTest\\AsyncApi\\Asset\\Helper\\": "tests/SprykerTest/AsyncApi/Asset/_support/Helper/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -13848,9 +13851,9 @@
             ],
             "description": "Asset module",
             "support": {
-                "source": "https://github.com/spryker/asset/tree/1.5.2"
+                "source": "https://github.com/spryker/asset/tree/1.5.3"
             },
-            "time": "2023-06-16T09:24:47+00:00"
+            "time": "2023-07-21T13:09:09+00:00"
         },
         {
             "name": "spryker/asset-storage",
@@ -27083,30 +27086,30 @@
         },
         {
             "name": "spryker/message-broker",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/message-broker.git",
-                "reference": "2a914fc4ab70ecbe0646b866929f058d35184f8d"
+                "reference": "b6328abd9e362ba500ffbcf9665f9eabb1284a33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/message-broker/zipball/2a914fc4ab70ecbe0646b866929f058d35184f8d",
-                "reference": "2a914fc4ab70ecbe0646b866929f058d35184f8d",
+                "url": "https://api.github.com/repos/spryker/message-broker/zipball/b6328abd9e362ba500ffbcf9665f9eabb1284a33",
+                "reference": "b6328abd9e362ba500ffbcf9665f9eabb1284a33",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.0",
                 "spryker/kernel": "^3.30.0",
                 "spryker/log": "^3.0.0",
-                "spryker/message-broker-extension": "^1.1.0",
+                "spryker/message-broker-extension": "^1.2.0",
                 "spryker/monolog": "^2.0.0",
                 "spryker/symfony": "^3.10.0",
                 "spryker/transfer": "^3.25.0",
                 "spryker/util-encoding": "^1.0.0 || ^2.0.0"
             },
             "require-dev": {
-                "spryker-sdk/async-api": "^0.2.0",
+                "spryker-sdk/async-api": "^0.3.0",
                 "spryker/application": "*",
                 "spryker/code-sniffer": "*",
                 "spryker/console": "*",
@@ -27138,9 +27141,9 @@
             ],
             "description": "MessageBroker module",
             "support": {
-                "source": "https://github.com/spryker/message-broker/tree/1.7.0"
+                "source": "https://github.com/spryker/message-broker/tree/1.8.0"
             },
-            "time": "2023-06-22T09:38:01+00:00"
+            "time": "2023-07-21T13:09:09+00:00"
         },
         {
             "name": "spryker/message-broker-aws",
@@ -57151,16 +57154,16 @@
         },
         {
             "name": "spryker/testify",
-            "version": "3.49.0",
+            "version": "3.49.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/testify.git",
-                "reference": "90df06e9eb21c4add5d6a54f3c095e48cba18b7b"
+                "reference": "691b1b9542f527c4eee7329ce7a35a6adc9dd270"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/testify/zipball/90df06e9eb21c4add5d6a54f3c095e48cba18b7b",
-                "reference": "90df06e9eb21c4add5d6a54f3c095e48cba18b7b",
+                "url": "https://api.github.com/repos/spryker/testify/zipball/691b1b9542f527c4eee7329ce7a35a6adc9dd270",
+                "reference": "691b1b9542f527c4eee7329ce7a35a6adc9dd270",
                 "shasum": ""
             },
             "require": {
@@ -57222,9 +57225,9 @@
             ],
             "description": "Testify module",
             "support": {
-                "source": "https://github.com/spryker/testify/tree/3.49.0"
+                "source": "https://github.com/spryker/testify/tree/3.49.1"
             },
-            "time": "2023-06-13T10:42:20+00:00"
+            "time": "2023-07-21T13:09:09+00:00"
         },
         {
             "name": "spryker/web-profiler",
